@@ -31,8 +31,17 @@
             android:layout_marginTop="154dp"
             android:text="MEDIMINDER"
             android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
             android:textSize="50sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="106dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/medic" />
 
     </RelativeLayout>
 </FrameLayout>

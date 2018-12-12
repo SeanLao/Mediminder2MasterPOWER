@@ -100,11 +100,9 @@ public class MainActivity extends AppCompatActivity
             ft.replace(R.id.flMain,new RateFragment());
             ft.commit();
 
-        } else if (id == R.id.nav_settings) {
-             Intent i = new Intent(MainActivity.this,SettingActivity.class);
-             startActivity(i);
-
         }
+
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
